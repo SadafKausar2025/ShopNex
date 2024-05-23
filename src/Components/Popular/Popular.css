@@ -5,34 +5,60 @@
     gap: 30px;
     margin-bottom: 100px;
 }
+
 .popular .h1p_dark {
     color: #171717;
     font-size: 30px;
     font-weight: 600;
 }
 
-.h1p_light{
+.h1p_light {
     color: white;
     font-size: 30px;
     font-weight: 600;
 }
 
-.popular .hrp_dark{
+.popular .hrp_dark {
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background: #252525;
 }
 
-.hrp_light{
+.hrp_light {
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background: white;
 }
 
-.popular-item{
+.popular-item {
     margin-top: 50px;
     display: flex;
     gap: 30px;
+
+}
+
+.popular-item .item {
+    background-color: rgb(250, 239, 250);
+    border-radius: 19px;
+
+}
+
+.popular-item .item:hover {
+    cursor: pointer;
+}
+
+.popular-item .item .pit_dark {
+    padding-left: 13px;
+    font-weight: bold;
+}
+
+.popular-item .item .item-prices {
+    padding-left: 13px;
+    padding-bottom: 8px;
+}
+
+.popular-item .item a img {
+    border-radius: 19px;
 }
